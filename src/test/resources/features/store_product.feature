@@ -1,4 +1,4 @@
-Feature: Product(s) Search and Selection
+Feature: Goto Landing page and search for the product
   As a user
   He/She want to open the store
   So they can search products

@@ -4,29 +4,135 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90c538f7-fbab-407a-a323-c4180de1afd6" name="Changes" comment="">
+    <list default="true" id="90c538f7-fbab-407a-a323-c4180de1afd6" name="Changes" comment="Feat: Adding the files for checkout page automation - TODO">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zalando/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/pages/CheckoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/pages/PageFactoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zalando/pages/PageFactoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/stepdefinitions/CheckoutStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/cart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/checkout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/store_product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/store_product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sudhakars10&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sudhakars10/zalando-ecommerce.git&quot;,
+    &quot;accountId&quot;: &quot;2e7ef761-8cd4-4d90-9312-a5f66a5adddc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ldzQHxyJGOJQzIoIwwSFuz6B7F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: cart.executor": "Run",
+    "Cucumber Java.Feature: store_product.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "TestNG.PageRunnerTest.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sudhakars10/Documents/projects/test-automation/Elsevier/zalando-ecommerce/src/test/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PageRunnerTest">
+    <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
+      <option name="GLUE" value="com.zalando.hooks com.zalando.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="zalando-ecommerce" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: store_product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/store_product.feature" />
+      <option name="GLUE" value="com.zalando.hooks com.zalando.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="zalando-ecommerce" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: store_product" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageRunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="zalando-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zalando.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zalando.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.zalando.runner.PageRunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PageRunnerTest" />
+        <item itemvalue="Cucumber Java.Feature: store_product" />
+        <item itemvalue="Cucumber Java.Feature: cart" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,6 +142,202 @@
       <option name="presentableId" value="Default" />
       <updated>1725524723895</updated>
     </task>
+    <task id="LOCAL-00001" summary="Feat: Adding the README file foe the project">
+      <option name="closed" value="true" />
+      <created>1725524964357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725524964357</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Feat: Adding the main dependencied to pom file">
+      <option name="closed" value="true" />
+      <created>1725526846083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725526846084</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat: Adding the DriverFactory.java file to create browser Web driver instance">
+      <option name="closed" value="true" />
+      <created>1725527044593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725527044593</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feat: Adding the TestContext.java file for application test context">
+      <option name="closed" value="true" />
+      <created>1725527662129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725527662129</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feat: Adding the Hooks.java file for Hook setup or teardown">
+      <option name="closed" value="true" />
+      <created>1725528525523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725528525523</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: Adding the enum file for environment constants">
+      <option name="closed" value="true" />
+      <created>1725528594956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725528594956</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Feat: Adding the prod and stage properties files with base URL">
+      <option name="closed" value="true" />
+      <created>1725528653956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725528653956</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feat: Adding the PropertyUtils.java to load the porperties files">
+      <option name="closed" value="true" />
+      <created>1725528729029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725528729029</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat: Adding the ConfigLoader.java to load all the configuration based on environment">
+      <option name="closed" value="true" />
+      <created>1725529108566</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725529108566</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Feat: Adding the BasePage.java to instantiate the driver and wait objects">
+      <option name="closed" value="true" />
+      <created>1725529488650</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725529488650</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feat: Adding the Constants.java for static application constants">
+      <option name="closed" value="true" />
+      <created>1725529607271</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725529607271</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Feat: Adding the feature file for zalando website landing page and product search">
+      <option name="closed" value="true" />
+      <created>1725530426157</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725530426157</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feat: Adding the step definition for store landing page">
+      <option name="closed" value="true" />
+      <created>1725530460983</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725530460983</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feat: Adding the implementation for automating the store landing page">
+      <option name="closed" value="true" />
+      <created>1725530820066</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725530820066</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Feat: Adding the implementation for product page search and results">
+      <option name="closed" value="true" />
+      <created>1725531014618</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725531014618</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Feat: Adding the factory manager for all the page objects">
+      <option name="closed" value="true" />
+      <created>1725531092961</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725531092961</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Feat: Adding the feature file for cart page automation">
+      <option name="closed" value="true" />
+      <created>1725531154753</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725531154753</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feat: Adding the step definitions for cart page">
+      <option name="closed" value="true" />
+      <created>1725531316628</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725531316628</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Feat: Adding the implementation for cart page automation">
+      <option name="closed" value="true" />
+      <created>1725531356621</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725531356621</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Feat: Adding the files for checkout page automation - TODO">
+      <option name="closed" value="true" />
+      <created>1725531436833</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725531436833</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feat: Adding the README file foe the project" />
+    <MESSAGE value="Feat: Adding the main dependencied to pom file" />
+    <MESSAGE value="Feat: Adding the DriverFactory.java file to create browser Web driver instance" />
+    <MESSAGE value="Feat: Adding the TestContext.java file for application test context" />
+    <MESSAGE value="Feat: Adding the Hooks.java file for Hook setup or teardown" />
+    <MESSAGE value="Feat: Adding the enum file for environment constants" />
+    <MESSAGE value="Feat: Adding the prod and stage properties files with base URL" />
+    <MESSAGE value="Feat: Adding the PropertyUtils.java to load the porperties files" />
+    <MESSAGE value="Feat: Adding the ConfigLoader.java to load all the configuration based on environment" />
+    <MESSAGE value="Feat: Adding the BasePage.java to instantiate the driver and wait objects" />
+    <MESSAGE value="Feat: Adding the Constants.java for static application constants" />
+    <MESSAGE value="Feat: Adding the feature file for zalando website landing page and product search" />
+    <MESSAGE value="Feat: Adding the step definition for store landing page" />
+    <MESSAGE value="Feat: Adding the implementation for automating the store landing page" />
+    <MESSAGE value="Feat: Adding the step definitions for product page search and results" />
+    <MESSAGE value="Feat: Adding the implementation for product page search and results" />
+    <MESSAGE value="Feat: Adding the factory manager for all the page objects" />
+    <MESSAGE value="Feat: Adding the feature file for cart page automation" />
+    <MESSAGE value="Feat: Adding the step definitions for cart page" />
+    <MESSAGE value="Feat: Adding the implementation for cart page automation" />
+    <MESSAGE value="Feat: Adding the files for checkout page automation - TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Adding the files for checkout page automation - TODO" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zalando/hooks/Hooks.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
