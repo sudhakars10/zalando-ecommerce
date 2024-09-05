@@ -31,27 +31,27 @@ public class PaymentPage extends BasePage{
         super(driver);
     }
 
-    public void userSelectThePaymentType() {
+    public void userSelectPaymentType() {
         Assert.assertTrue(true);
     }
 
-    public void userAddTheCardHolderName() {
+    public void userAddCardHolderName() {
         Assert.assertTrue(true);
     }
 
-    public void userAddTheCardNumber() {
+    public void userAddCardNumber() {
         Assert.assertTrue(true);
     }
 
-    public void userAddTheExpiryDate() {
+    public void userAddExpiryDate() {
         Assert.assertTrue(true);
     }
 
-    public void userAddTheSecurityCode() {
+    public void userAddSecurityCode() {
         Assert.assertTrue(true);
     }
 
-    public void userClickNextButtonConfirmThePayment() {
+    public void userClickNextButtonConfirmPayment() {
         Assert.assertTrue(true);
     }
 }

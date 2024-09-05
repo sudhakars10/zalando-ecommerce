@@ -17,31 +17,31 @@ public class PaymentStepDefinitions {
 
     @Then("user select the payment type")
     public void userSelectThePaymentType() {
-        this.paymentPage.userSelectThePaymentType();
+        this.paymentPage.userSelectPaymentType();
     }
 
     @And("user add the Card Holder name")
     public void userAddTheCardHolderName() {
-        this.paymentPage.userAddTheCardHolderName();
+        this.paymentPage.userAddCardHolderName();
     }
 
-    @And("user add the Card number")
+    @Then("user add the Card Number")
     public void userAddTheCardNumber() {
-        this.paymentPage.userAddTheCardNumber();
+        this.paymentPage.userAddCardNumber();
     }
 
-    @And("user add the Expiry date")
+    @Then("user add the Expiry Date")
     public void userAddTheExpiryDate() {
-        this.paymentPage.userAddTheExpiryDate();
+        this.paymentPage.userAddExpiryDate();
     }
 
-    @And("user add the Security code")
+    @And("user add the Security Code")
     public void userAddTheSecurityCode() {
-        this.paymentPage.userAddTheSecurityCode();
+        this.paymentPage.userAddSecurityCode();
     }
 
     @Then("user click the Next button for confirm the payment")
     public void userClickNextButtonConfirmThePayment() {
-        this.paymentPage.userClickNextButtonConfirmThePayment();
+        this.paymentPage.userClickNextButtonConfirmPayment();
     }
 }
