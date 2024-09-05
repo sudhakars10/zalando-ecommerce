@@ -15,17 +15,17 @@ public class CheckoutStepDefinitions {
         checkoutPage = PageFactoryManager.getCheckoutPage(context.driver);
     }
 
-    @And("user get search results and click the Add to basket button")
+    @Then("user get search results and click the Add to basket button")
     public void userGetSearchResultsAndClickTheAddToBasketButton() {
         this.checkoutPage.userGetSearchResultsAndClickAddToBasket();
     }
 
-    @Then("user should see the item added to the basket")
+    @And("user should see the item added to the basket")
     public void userShouldSeeItemAddedToBasket() {
         this.checkoutPage.itemAddedToBasket();
     }
 
-    @And("user click the Go to Bag button and see the items")
+    @Then("user click the Go to Bag button and see the items")
     public void userClickGoToBagAndSeeTheItems() {
         this.checkoutPage.goToBagAndCheckout();
     }
