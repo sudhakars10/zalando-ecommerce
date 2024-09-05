@@ -13,9 +13,10 @@ package com.zalando.hooks;
 
 import com.zalando.context.TestContext;
 import com.zalando.factory.DriverFactory;
-import io.cucumber.java.*;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.*;
 
 /**
  *  The {@code Hooks} class is a setup and teardown utility for managing WebDriver instances
