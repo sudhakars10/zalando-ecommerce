@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 import static com.zalando.constants.Constants.*;
 
-public class CartPage extends BasePage {
+public class CartCheckoutPage extends BasePage {
 
     @FindBy(id = SEARCH_TEXTAREA_IDFIELD_VALUE)
     private WebElement searchTextField;
@@ -29,7 +29,7 @@ public class CartPage extends BasePage {
     @FindBy(xpath = GO_TO_CHECKOUT_BUTTON)
     private WebElement goToCheckoutButton;
 
-    public CartPage(WebDriver driver) {
+    public CartCheckoutPage(WebDriver driver) {
         super(driver);
     }
 
