@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="90c538f7-fbab-407a-a323-c4180de1afd6" name="Changes" comment="Feat: Adding the files for checkout page automation - TODO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zalando/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/pages/CheckoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestRunnerReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestRunnerReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/pages/CartCheckoutPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/pages/PageFactoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zalando/pages/PageFactoryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/stepdefinitions/CheckoutStepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/checkout.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/store_product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/store_product.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zalando/stepdefinitions/CartCheckoutStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CartCheckout.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: cart.executor": "Run",
-    "Cucumber Java.Feature: store_product.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.PageRunnerTest.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sudhakars10/Documents/projects/test-automation/Elsevier/zalando-ecommerce/src/test/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: cart.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: store_product.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.PageRunnerTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sudhakars10/Documents/projects/test-automation/Elsevier/zalando-ecommerce/src/test/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PageRunnerTest">
+  <component name="RunManager" selected="TestNG.PageRunnerTest (1)">
     <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
@@ -108,6 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PageRunnerTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="zalando-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zalando.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zalando.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.zalando.runners.PageRunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PageRunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="zalando-ecommerce" />
       <extension name="coverage">
@@ -127,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PageRunnerTest (1)" />
         <item itemvalue="TestNG.PageRunnerTest" />
         <item itemvalue="Cucumber Java.Feature: store_product" />
         <item itemvalue="Cucumber Java.Feature: cart" />
