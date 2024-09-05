@@ -1,5 +1,26 @@
+/**
+ * Copyright (c) 2024 - Elsevier Assessment.
+ * All rights reserved.
+ * <p>
+ * This software is the confidential and proprietary information of Elsevier Assessment.
+ * You shall not disclose such confidential information and shall use it only in
+ * accordance with the terms of the license agreement you entered into with Elsevier Assessment.
+ * <p>
+ * Created on: September 2, 2024
+ * Author: Sudhakar Thangavelu
+ */
 package com.zalando.constants;
 
+/**
+ * Constants class for storing static final values used across the test framework.
+ *
+ * The `Constants` class holds constant values such as XPath, ID, and CSS selectors
+ * that are used to locate web elements in various page classes. By centralizing
+ * these values, the class enhances maintainability and prevents hardcoding
+ * of selectors directly in the test scripts.
+ *
+ * This class is designed to be non-instantiable, following best practices for utility classes.
+ */
 public class Constants {
     // Prevent instantiation
     private Constants() {
