@@ -6,6 +6,7 @@ public class PageFactoryManager {
     private static StorePage storePage;
     private static CheckoutPage checkoutPage;
     private static ProductPage productPage;
+    private static PaymentPage paymentPage;
 
     public static StorePage getStorePage(WebDriver driver) {
         return storePage == null ? new StorePage(driver) : storePage;
@@ -17,5 +18,9 @@ public class PageFactoryManager {
 
     public static ProductPage getProductPage(WebDriver driver) {
         return productPage == null ? new ProductPage(driver) : productPage;
+    }
+
+    public static PaymentPage getPaymentPage(WebDriver driver) {
+        return paymentPage == null ? new PaymentPage(driver) : paymentPage;
     }
 }
