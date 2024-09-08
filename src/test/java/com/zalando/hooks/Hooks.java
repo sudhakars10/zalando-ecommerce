@@ -19,19 +19,19 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
 
 /**
- *  The {@code Hooks} class is a setup and teardown utility for managing WebDriver instances
- *  in a Cucumber testing environment. It utilizes Cucumber's {@code @Before} and {@code @After}
+ *  The Hooks class is a setup and teardown utility for managing WebDriver instances
+ *  in a Cucumber testing environment. It utilizes Cucumber's Before and After
  *  hooks to execute code before and after each test scenario.
  *
- *  The {@code Hooks} class is responsible for initializing the WebDriver before each test
+ *  The Hooks class is responsible for initializing the WebDriver before each test
  *  scenario begins and ensuring that the WebDriver instance is properly shut down after
  *  each scenario completes. This class also prints thread and scenario information
  *  to the console, aiding in debugging and tracking test execution.
  *
- *  The WebDriver is initialized using the {@code DriverFactory} class, which supports
+ *  The WebDriver is initialized using the DriverFactory class, which supports
  *  different browser types. The default browser is Chrome, but this can be overridden
  *  by setting the "browser" system property. The initialized WebDriver is stored in the
- *  {@code TestContext} for use in test steps.
+ *  TestContext for use in test steps.
  */
 public class Hooks {
     private WebDriver driver;

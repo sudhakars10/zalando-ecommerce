@@ -17,7 +17,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * The {@code DriverFactory} class is responsible for initializing WebDriver instances
+ * The DriverFactory class is responsible for initializing WebDriver instances
  * based on the specified browser type. This class provides a method to create and
  * configure WebDriver objects for different browsers such as Chrome and Firefox.
  */
