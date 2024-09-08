@@ -33,7 +33,7 @@ public class StoreStepDefinitions {
         storePage = PageFactoryManager.getStorePage(context.driver);
     }
 
-    @Given("^user navigates to store page \"([^\"]*)\"$")
+    @Given("user navigates to store page {word}")
     public void userNavigatesToStorePage(String country) {
         this.storePage.goToStorePage(country);
     }

@@ -34,7 +34,7 @@ public class ProductStepDefinitions {
         productPage = PageFactoryManager.getProductPage(context.driver);
     }
 
-    @When("^user searches for \"([^\"]*)\"$")
+    @When("user searches for {string}")
     public void userSearchesFor(String searchValue) {
         this.productPage.searchFor(searchValue);
     }
