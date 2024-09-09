@@ -10,6 +10,41 @@ This project automates end-to-end testing of a Zalando e-commerce website using 
 <h2><b>Prerequisites</b></h2>
 <li><b>Java 11 or higher:</b> Make sure Java is installed and JAVA_HOME is set.
 <li><b>Maven:</b> Ensure Maven is installed and added to your system's PATH.
-<li><b>Browser Drivers:</b> Download the appropriate WebDriver executables (e.g., ChromeDriver) and add them to your system's PATH.
+<li><b>IDE:</b> Any Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse).
 
-Note: The payment page can't be automated for the live 3rd party website as it's blocking the automation browser actions due to security reasons. Hence I created dummy assertions instead actual automation for this page alone. The rest of the pages are implemented with automation.
+<h2><b>Setup</b></h2>
+Clone the repository:
+
+git clone [https://github.com/sudhakars10/zalando-ecommerce.git](https://github.com/sudhakars10/zalando-ecommerce.git) <br>
+cd Zalando-eCommerce
+
+Install dependencies:<br>
+mvn clean install
+
+<h2><b>Running Tests</b></h2>
+Using Maven<br>
+To run tests via Maven, execute the following command:<br>
+mvn test
+
+Using TestNG<br>
+You can also run tests directly via the TestRunnerReport.xml file:<br>
+Right-click on the TestRunnerReport.xml file in your IDE and select "Run"<br>
+
+<h2><b>Framework Design</b></h2>
+Page Object Model (POM)<br>
+The project uses the Page Object Model (POM) design pattern, where web pages are represented as classes, and actions that can be performed on these pages are represented as methods.
+
+Cucumber<br>
+Cucumber is used to write Behavior-Driven Development (BDD) style test cases. Test scenarios are written in Gherkin language in .feature files.<br>
+
+TestNG<br>
+TestNG is used as the test runner for the Cucumber tests, which allows for parallel execution, grouping, and other advanced testing functionalities.<br>
+
+Maven<br>
+Maven is used for managing dependencies, build automation, and running tests.<br>
+
+<h2><b>Reporting</b></h2>
+The framework generates a Cucumber HTML report after the execution. You can find it under target/cucumber-reports/.
+
+<h2><b>Note:</b></h2> 
+The payment page can't be automated for the live 3rd party website as it's blocking the automation browser actions due to security reasons. Hence I created dummy assertions instead actual automation for this page alone. The rest of the pages are implemented with automation.
