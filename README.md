@@ -8,6 +8,6 @@ This project automates end-to-end testing of a Zalando e-commerce website using 
 <li><b>Reports:</b> Generates detailed reports using Cucumber and other reporting tools.</li>
 
 <h2><b>Prerequisites</b></h2>
-<li><b>Java 8 or higher:</b> Make sure Java is installed and JAVA_HOME is set.
+<li><b>Java 11 or higher:</b> Make sure Java is installed and JAVA_HOME is set.
 <li><b>Maven:</b> Ensure Maven is installed and added to your system's PATH.
 <li><b>Browser Drivers:</b> Download the appropriate WebDriver executables (e.g., ChromeDriver) and add them to your system's PATH.
