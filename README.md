@@ -11,3 +11,5 @@ This project automates end-to-end testing of a Zalando e-commerce website using 
 <li><b>Java 11 or higher:</b> Make sure Java is installed and JAVA_HOME is set.
 <li><b>Maven:</b> Ensure Maven is installed and added to your system's PATH.
 <li><b>Browser Drivers:</b> Download the appropriate WebDriver executables (e.g., ChromeDriver) and add them to your system's PATH.
+
+Note: The payment page can't be automated for the live 3rd party website as it's blocking the automation browser actions due to security reasons. Hence I created dummy assertions instead actual automation for this page alone. The rest of the pages are implemented with automation.
