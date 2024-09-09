@@ -4,7 +4,7 @@ Feature: Goto Payments page from Checkout and Make the payment
   So they can do the payment
 
   Background: Navigate to page
-    Given user navigates to store page "uk"
+    Given user navigates to store page uk
     When user searches for "PHOENIX LOGO UNISEX - Cap - navy"
     Then user get search results and click the Add to basket button
     Then user click the Go to Bag button and see the items

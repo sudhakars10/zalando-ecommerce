@@ -4,7 +4,7 @@ Feature: Product(s) Search and Add to cart
   So they can add into the cart and click checkout
 
   Background: Navigate to page
-    Given user navigates to store page "uk"
+    Given user navigates to store page uk
     When user searches for "PHOENIX LOGO UNISEX - Cap - navy"
 
   @checkout_page @smoke
